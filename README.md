@@ -1,6 +1,6 @@
 # Purescript Starter
 
-Minimal configuration purescript project starter
+git push -u origin master
 
 ## Installation
 
@@ -25,7 +25,7 @@ Terminal 1
 npm run js
 ```
 
-Terminal 2
+Terminal 2 (won't reload on changes, TODO)
 ```
 spago build
 ```
@@ -39,5 +39,5 @@ Now you should be able to do changes and see them in the browser!
 
 ## TODO
 
-Purescript compilation output file watch
-Auto reload server on changes (maybe browsersync or webpack-dev-server)
+- Purescript compilation output file watch
+- Auto reload server on changes (maybe browsersync or - webpack-dev-server)
