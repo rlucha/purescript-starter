@@ -7,13 +7,14 @@
     "test": "test"
   },
   "scripts": {
-    "js": "npx webpack --mode=development",
-    "ps": "spago build"
+    "start": "npx webpack --watch --mode=development",
+    "server": "browser-sync start -s dist -f dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.3",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   }

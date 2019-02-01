@@ -1,0 +1,6 @@
+{
+    "set": "local",
+    "depends": [],
+    "name": "purescript-starter",
+    "source": ""
+}

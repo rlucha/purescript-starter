@@ -13,29 +13,28 @@ npm install -g purescript purescript-spago
 Clone this repo, cd into it and run:
 
 ```
-npm install
+npm install && spago build
 ```
 
-## Running (WIP)
+## Running
 
-Open three terminals (yes, I know)
-
-Terminal 1
 ```
-npm run js
+npm start
 ```
-
-Terminal 2 (won't reload on changes, TODO)
+In another terminal:
 ```
-npm run ps
+npm server
 ```
 
-Terminal 3
-```
-$ Any webserver pointing to dist/index.html
-```
+## Compiling purescript code
 
-Now you should be able to do changes and see them in the browser!
+__Instructions for VS Code__
+
+Install both vscode-ide-purescript and PureScript Language Support extensions.
+
+That will provide compilation on save to the output directory being watched by webpack.
+
+Now you should be able to do changes in Main.purs and see them in the browser!
 
 ## TODO
 
