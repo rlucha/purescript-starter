@@ -35,8 +35,3 @@ Replace vscode-ide-purescript compilation command in the extension settings for 
 That will provide compilation on save to the output directory being watched by webpack.
 
 Now you should be able to do changes in Main.purs and see them in the browser!
-
-## TODO
-
-- Purescript compilation output file watch
-- Auto reload server on changes (maybe browsersync or - webpack-dev-server)
