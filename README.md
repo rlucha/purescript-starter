@@ -1,7 +1,5 @@
 # Purescript Starter
 
-git push -u origin master
-
 ## Installation
 
 First install purescript and spago:
