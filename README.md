@@ -27,12 +27,12 @@ npm run js
 
 Terminal 2 (won't reload on changes, TODO)
 ```
-spago build
+npm run ps
 ```
 
 Terminal 3
 ```
-$ Any webserver pointing to src/index.html
+$ Any webserver pointing to dist/index.html
 ```
 
 Now you should be able to do changes and see them in the browser!
