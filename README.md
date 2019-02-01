@@ -32,6 +32,8 @@ __Instructions for VS Code__
 
 Install both vscode-ide-purescript and PureScript Language Support extensions.
 
+Replace vscode-ide-purescript compilation command in the extension settings for `spago build`
+
 That will provide compilation on save to the output directory being watched by webpack.
 
 Now you should be able to do changes in Main.purs and see them in the browser!
