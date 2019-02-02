@@ -7,9 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "start": "npx webpack --watch --mode=development",
-    "server": "browser-sync start -s dist -f dist"
-  },
+    "js": "npx webpack --mode=development",
+    "ps": "spago build",
+    "start": "watchexec -w src \"npm run ps && npm run js\"",
+    "server": "browser-sync start -s dist -f dist"  },
   "keywords": [],
   "author": "",
   "license": "ISC",
